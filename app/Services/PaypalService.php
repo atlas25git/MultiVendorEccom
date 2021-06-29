@@ -14,7 +14,7 @@ class PaypalService
 
     function __construct()
     {
-        $environment = new SandboxEnvironment(env('PAYPAL_SANDBOX_CLIENT_ID'), env('PAYPAL_SANDBOX_CLIENT_SECRET'));
+        $environment = new SandboxEnvironment('AQIFORLvCr3so2ov_kr42_m6gcr-pvTUDoyL2QM3cSg9zX3K9IW5zqjh4wELAs1hjUjShceK2is2FfZI', 'EIqe1W9lHKJTP3Uz7wT3ila6uvOTFPaH3VfGdYhnO298_DPdYQ_Kf2V68K92hiTDINyt3swt7u-TMUoS');
         $this->client = new PayPalHttpClient($environment);
     }
 
