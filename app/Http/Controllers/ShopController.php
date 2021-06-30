@@ -40,13 +40,16 @@ class ShopController extends Controller
     {
         //add validation
         $request->validate([
-            'name' => 'required'
+            'merchantID' => 'required'
         ]);
+        
 
         //save db
+        
         $shop = auth()->user()->shop()->create([
             'name'        => $request->input('name'),
             'description' => $request->input('description'),
+            'merchantID' => $request->input('merchantID')
         ]);
 
 
@@ -57,7 +60,7 @@ class ShopController extends Controller
         })->get();
 
         Mail::to($admins)->send(new ShopActivationRequest($shop));
-
+        //dd($request->input('merchantID'));
         return redirect()->route('home')->withMessage('Create shop request sent');
     }
 

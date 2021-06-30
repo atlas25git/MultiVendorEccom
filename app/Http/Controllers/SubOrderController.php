@@ -12,9 +12,9 @@ class SubOrderController extends Controller
         $suborder->transactions()->create([
             'transaction_id'=> uniqid('trans-'.$suborder->id),
             'amount_paid'=> $suborder->grand_total,
-            'commission'=>  0.2*$suborder->grand_total
+            'commission'=>  0.8*$suborder->grand_total
         ]);
 
-        return redirect()->to('/admin/transactions')->withMessage('Transaction Created');
+        return redirect()->to('https://www.sandbox.paypal.com/myaccount/transfer/homepage')->withMessage('Transaction Created');
     }
 }

@@ -288,8 +288,11 @@
                                         @if($data->status == 'completed')
                                             <a  href=" {{route('order.pay', $data)}} "
                                                 class="btn btn-sm btn-primary pull-right">
-                                                <i class="{{ $action->getIcon() }}"></i> <span class="hidden-xs hidden-sm">Pay</span>
-                                            </a>
+                                                
+                                                <i class="{{ $action->getIcon() }}"></i> <span class="hidden-xs hidden-sm">
+                                                Pay
+                                                </span></a>
+                                            
                                         @endif
                                     </td>
                                 </tr>

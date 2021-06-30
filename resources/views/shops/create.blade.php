@@ -17,6 +17,11 @@
         <textarea class="form-control" name="description" id="" rows="3"></textarea>
     </div>
 
+    <div class="form-group">
+        <label for="merchantID">PayPal Merchant ID</label>
+        <input type="text" class="form-control" name="merchantID" id="" aria-describedby="helpId" placeholder="">
+    </div>
+
     <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>
