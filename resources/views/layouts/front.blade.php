@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Electronics - eCommerce HTML5 Template</title>
+    <title>Atlas25</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -37,13 +37,15 @@
             <div class="header-info-wrapper pl-200 pr-200">
                 <div class="header-contact-info">
                     <ul>
-                        <li><i class="pe-7s-call"></i> +011 2231 4545</li>
-                        <li><i class="pe-7s-mail"></i> <a href="#">company@domail.info</a></li>
+                        <li><i class="pe-7s-call"></i> +184982974</li>
+                        <li><i class="pe-7s-mail"></i> <a href="#">multiVendor@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="electronics-login-register">
                     <ul>
-                        <li><a href="#"><i class="pe-7s-users"></i>My Account</a></li>
+                        <li><a href="login"><i class="pe-7s-users"></i>My Account</a></li>
+                        <li><a href="seller"><i class="pe-7s-users"></i>Seller</a></li>
+                        <li><a href="admin"><i class="pe-7s-users"></i>Admin?</a></li>
                         <li><a data-toggle="modal" data-target="#exampleCompare" href="#"><i
                                     class="pe-7s-repeat"></i>Compare</a></li>
                         <li><a href="wishlist.html"><i class="pe-7s-like"></i>Wishlist</a></li>
@@ -148,8 +150,8 @@
                                         <span>Address:</span>
                                     </div>
                                     <div class="footer-info-content2">
-                                        <p>77 Seventh Streeth Banasree
-                                            <br>Road Rampura -2100 Dhaka</p>
+                                        <p>San Fransisco, Mount Hagen
+                                            <br>US</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-electro">
@@ -157,8 +159,8 @@
                                         <span>Phone:</span>
                                     </div>
                                     <div class="footer-info-content2">
-                                        <p>+11 (019) 2518 4203
-                                            <br>+11 (251) 2223 3353</p>
+                                        <p>+11 xxxx-xxxx-xxxx
+                                            <br>+11 xxxx-xxxx-xxxx</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-electro">
@@ -178,11 +180,11 @@
                             <h3 class="footer-widget-title-3">My Account</h3>
                             <div class="footer-widget-content-3">
                                 <ul>
-                                    <li><a href="login.html">Login Hare</a></li>
-                                    <li><a href="cart.html">Cart History</a></li>
-                                    <li><a href="checkout.html"> Payment History</a></li>
-                                    <li><a href="shop.html">Product Tracking</a></li>
-                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="login">Login</a></li>
+                                    <li><a href="cart">Cart History</a></li>
+                                    <li><a href="checkout"> Payment History</a></li>
+                                    <li><a href="shop">Product Tracking</a></li>
+                                    <li><a href="register">Register</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -196,7 +198,7 @@
                                     <li><a href="#">Our Service</a></li>
                                     <li><a href="#">Pricing Plan</a></li>
                                     <li><a href="#"> Vendor Detail</a></li>
-                                    <li><a href="#">Affiliate</a></li>
+                                    <li><a href="register">Affiliate</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -250,7 +252,7 @@
                             </div>
                             <div class="footer-services-content">
                                 <h3>Online Support</h3>
-                                <p>Free Shipping on Bangladesh</p>
+                                <p>Free Shipping on WorldWide</p>
                             </div>
                         </div>
                     </div>
@@ -274,8 +276,7 @@
                     <div class="col-lg-6 col-md-7">
                         <div class="copyright f-right mrg-5">
                             <p>
-                                Copyright ©
-                                <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.
+                                Stay Tuned for the best from us.
                             </p>
                         </div>
                     </div>
